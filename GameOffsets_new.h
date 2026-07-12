@@ -7,7 +7,7 @@ namespace Offsets {
     constexpr uintptr_t GObjects    = 0xaef7e78;
     constexpr uintptr_t GNames      = 0xb4e2fc0;
     // FNameXORKey
-    constexpr uint8_t FNameXORKey_Value = 0x41;
+    constexpr uint8_t FNameXORKey_Value = 0x12;
 
     // UObject
     constexpr uintptr_t UObject_FNameID = 0x20;
@@ -18,10 +18,6 @@ namespace Offsets {
     // Character
     constexpr uintptr_t Character_NameProperty = 0x0;
     constexpr uintptr_t Character_None = 0x0;
-    constexpr uintptr_t Character_Platforms = 0x28;
-    constexpr uintptr_t Character_SortOrderHint = 0x58;
-    constexpr uintptr_t Character_bIsEnabled = 0x5c;
-    constexpr uintptr_t Character_bMotionBlurEnabled = 0x5d;
 
     // GameInstance
     constexpr uintptr_t GameInstance_None = 0x0;
@@ -91,10 +87,8 @@ namespace Offsets {
     constexpr uintptr_t PlayerState_bReplicates = 0x9c;
 
     // SGCharacter
-    constexpr uintptr_t SGCharacter_ = 0x0;
     constexpr uintptr_t SGCharacter_None = 0x0;
-    constexpr uintptr_t SGCharacter_Services = 0x58;
-    constexpr uintptr_t SGCharacter_bIgnoreRestartSelf = 0x68;
+    constexpr uintptr_t SGCharacter_zyObjectProperty?ySoftObjectProperty?~Int64Property}+~Int32Property}5~Int16Property}W~Int8Property?~UInt64Proper = 0x0;
 
     // SceneComponent
     constexpr uintptr_t SceneComponent_AttachChildren = 0x110;
